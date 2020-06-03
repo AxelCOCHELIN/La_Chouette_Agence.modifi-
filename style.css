@@ -101,7 +101,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -546,7 +546,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black !important;
 }
 .container {
   max-width: 1000px;
@@ -615,7 +615,7 @@ h4 {
   margin-top: 24px;
 }
 .white {
-  color: #ffffff !important;
+  color: black !important;
 }
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -623,6 +623,12 @@ h4 {
 .portfolio-row {
   margin-bottom: 44px;
   margin-top: 50px;
+}
+.col-sm-6 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .avatar {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
@@ -748,6 +754,7 @@ h4 {
   h5,
   h6,
   p,
+  cite,
   #disqus_thread {
     padding-left: 10px !important;
     padding-right: 10px !important;
