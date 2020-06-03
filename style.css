@@ -551,6 +551,10 @@ a {
 .container {
   max-width: 1000px;
 }
+address {
+  display: flex;
+  justify-content: center;
+}
 .hero-bloc-text {
   font-size: 38px;
 }
@@ -652,6 +656,9 @@ h4 {
 }
 .tc-white {
   color: white !important;
+}
+.tc1-white {
+  color: black !important;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
