@@ -14,6 +14,7 @@ button {
 a:hover {
   text-decoration: none;
   cursor: pointer;
+  text-decoration: underline;
 }
 #page-loading-blocs-notifaction {
   position: fixed;
@@ -152,7 +153,7 @@ a:hover {
 }
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.9);
 }
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -273,6 +274,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
+  text-decoration: underline;
 }
 .navbar-toggle {
   margin: 10px 10px 0 0;
@@ -638,12 +640,13 @@ h4 {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(165, 147, 99, 0.9);
   padding: 40px 40px 40px 40px;
 }
 .bold-link {
   font-weight: 900;
   text-decoration: underline !important;
+  color: #000;
 }
 .bgc-white {
   background-color: #fff;
@@ -667,9 +670,10 @@ h4 {
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
   color: black !important;
+  border: 1px solid black;
 }
 .ltc-white {
-  color: #ffffff !important;
+  color: black !important;
 }
 .ltc-white:hover {
   color: #cccccc !important;
@@ -765,6 +769,9 @@ h4 {
   #disqus_thread {
     padding-left: 10px !important;
     padding-right: 10px !important;
+  }
+  cite {
+    color: black;
   }
   .b-parallax {
     background-attachment: scroll;
