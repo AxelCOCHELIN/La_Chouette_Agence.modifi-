@@ -616,7 +616,7 @@ h3 {
   box-shadow: 0 0 0 #000;
 }
 h1 {
-  color: #333333 !important;
+  color: white !important;
 }
 h4 {
   color: #333333 !important;
@@ -656,15 +656,15 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: #f3976c !important;
+  color: white !important;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: black !important;
 }
 .ltc-white {
   color: #ffffff !important;
