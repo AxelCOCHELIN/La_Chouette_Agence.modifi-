@@ -120,11 +120,14 @@ a:hover {
 .d-bloc p a:hover {
   color: rgba(255, 255, 255, 1);
 }
+.hero-bloc-text {
+  background-color: #f3976c;
+}
 .navbar-brand:hover,
 .navbar a:hover {
   background-color: #f3976c;
-  color: black;
-  border: 1px solid black;
+  color: #000;
+  border: 1px solid #000;
   border-radius: 30px;
 }
 .d-bloc .navbar-toggle .icon-bar {
@@ -282,7 +285,7 @@ a:hover {
 .nav > li a:hover {
   background: 0 0;
   background-color: #f3976c;
-  color: black;
+  color: #000;
 }
 .navbar-toggle {
   margin: 10px 10px 0 0;
@@ -291,7 +294,7 @@ a:hover {
 .navbar-toggle:hover {
   background: 0 0 !important;
   background-color: #f3976c;
-  color: black;
+  color: #000;
 }
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
@@ -622,9 +625,6 @@ h3 {
   margin: auto auto auto auto;
   box-shadow: 0 0 0 #000;
 }
-h1 {
-  color: #fff !important;
-}
 h4 {
   color: #333 !important;
 }
@@ -670,9 +670,6 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: #fff !important;
-}
-.tc1-white {
   color: #000 !important;
 }
 .btn-atomic-tangerine {
